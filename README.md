@@ -1,1 +1,2 @@
 # Mission-to-Mars
+The purpose of this module was to extract information from several websites and display the data in a new web page. Chrome Developer Tools were used to identify HTML components from each of the websites. BeautifulSoup and Splinter were used to scrape data, including photographs, URLs, article headlines, and other information, from each website. Mongo was used to store the scraped data in a database. Finally, Flask was used to develop a web application and display the information on a new web page. 
