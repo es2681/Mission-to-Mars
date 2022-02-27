@@ -19,8 +19,8 @@ def scrape_all():
         "news_paragraph": news_paragraph,
         "featured_image": featured_image(browser),
         "facts": mars_facts(),
-        "last_modified": dt.datetime.now(),
-        "hemisphere_images": hemisphere_image_urls(browser)
+        "hemisphere_images": hemisphere_image_urls(browser),
+        "last_modified": dt.datetime.now()
     }
     
     # Stop webdriver and return data
@@ -134,7 +134,7 @@ def hemisphere_image_urls(browser):
         return None
     
     # 4. Print the list that holds the dictionary of each image url and title.
-    return hemisphere_image_urls(browser)
+    return hemisphere_image_urls
 
 
 if __name__ == "__main__":
